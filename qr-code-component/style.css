@@ -9,13 +9,11 @@ body {
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
     text-align: center;
     color: hsl(0, 0%, 50%);
-}
-
-main {
     width: 100dvw;
     min-height: 100dvh;
-    padding: 2.2rem;
+    padding: 2rem;
 }
+
 
 main,
 .card-body {
