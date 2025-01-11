@@ -11,8 +11,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/abigailelis/git-test/tree/main/qr-code-component)
-- Live Site URL: [Vercel](https://qr-code-component-challenge-abigail.vercel.app/)
+- Solution URL: [Github](https://github.com/abigailelis/git-test/tree/main/blog-preview-card)
+- Live Site URL: [Vercel](https://blog-preview-card-challenge-abigail.vercel.app/)
 
 ### Built with
 
