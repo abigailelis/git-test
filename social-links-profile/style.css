@@ -59,15 +59,15 @@ body, .card, .card-social-links, .card-text {
     border: none;
     padding: .735rem;
     cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
 
 .social-btn:hover{
     background-color: hsl(75, 94%, 57%);
-}
-
-.social-btn:hover a{
     color:hsl(0, 0%, 8%);
 }
+
 
 /* IMAGES */
 
@@ -84,11 +84,7 @@ body, .card, .card-social-links, .card-text {
     font-size: 12px;
 }
 
-.social-btn a {
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
-}
+
 
 h1{
     font-weight: 600;
