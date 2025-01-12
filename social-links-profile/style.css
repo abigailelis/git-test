@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Inter Thin';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 0.875rem;
+    font-family: 'Inter Thin', Arial, Helvetica, sans-serif;
+    width: 100dvw;
+    min-height: 100dvh;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+body, .card, .card-social-links, .card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CARD */
+
+.card {
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: .5rem;
+    width: 20rem;
+    max-width: 20rem;
+    padding: 1.9rem 2rem 1.9rem 2rem;
+    gap: 1.5rem;
+}
+
+.card-social-links {
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    gap: .8rem;
+}
+
+.card-text{
+    align-items: center;
+    gap: .4rem;
+}
+
+/* SOCIAL BUTTONS */
+.social-btn {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: .3rem;
+    border: none;
+    padding: .735rem;
+    cursor: pointer;
+}
+
+.social-btn:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.social-btn:hover a{
+    color:hsl(0, 0%, 8%);
+}
+
+/* IMAGES */
+
+.avatar-profile {
+    width: 4.5rem;
+    border-radius: 5rem;
+}
+
+/* TEXTS */
+
+.highlight {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.social-btn a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.text{
+    margin-top: .9rem;
+    font-size: 12px;
+}
+
+footer{
+    color:hsl(0, 0%, 20%);
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
