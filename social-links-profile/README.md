@@ -11,8 +11,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Github](https://github.com/abigailelis/git-test/tree/main/qr-code-component)
-- Live Site URL: [Vercel](https://qr-code-component-challenge-abigail.vercel.app/)
+- Solution URL: [Github](https://github.com/abigailelis/git-test/tree/main/social-links-profile)
+- Live Site URL: [Vercel](https://social-links-profile-challenge-abigail.vercel.app/)
 
 ### Built with
 
