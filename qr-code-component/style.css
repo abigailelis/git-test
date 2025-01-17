@@ -17,7 +17,6 @@ body {
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
     text-align: center;
     color: var(--txt-color);
-    width: 100vw;
     min-height: 100vh;
     padding: 2rem;
 }
