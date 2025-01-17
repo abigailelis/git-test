@@ -3,6 +3,15 @@
     src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
 }
 
+:root{
+    --bg-color: hsl(0, 0%, 8%);
+    --bg-second-color: hsl(0, 0%, 12%);
+    --bg-third-color: hsl(0, 0%, 20%);
+    --bg-fourth-color: hsl(75, 94%, 57%);
+    --font-color: hsl(0, 0%, 100%);
+    --font-second-color: hsl(0, 0%, 8%);
+    --font: 'Inter Thin', Arial, Helvetica, sans-serif;
+}
 * {
     padding: 0;
     margin: 0;
@@ -10,15 +19,13 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--bg-color);
     color: hsl(0, 0%, 100%);
     font-size: 0.875rem;
-    font-family: 'Inter Thin', Arial, Helvetica, sans-serif;
-    width: 100dvw;
-    min-height: 100dvh;
+    font-family: var(--font);
+    min-height: 100vh;
     padding: 1rem;
     justify-content: center;
-    align-items: center;
     text-align: center;
     gap: 1rem;
 }
@@ -28,11 +35,14 @@ body, .card, .card-social-links, .card-text {
     flex-direction: column;
 }
 
+body, .card, .card-text{
+    align-items: center;
+}
+
 /* CARD */
 
 .card {
-    align-items: center;
-    background-color: hsl(0, 0%, 12%);
+    background-color: var(--bg-second-color);
     border-radius: .5rem;
     width: 20rem;
     max-width: 20rem;
@@ -48,26 +58,24 @@ body, .card, .card-social-links, .card-text {
 }
 
 .card-text{
-    align-items: center;
     gap: .4rem;
 }
 
 /* SOCIAL BUTTONS */
 .social-btn {
-    background-color: hsl(0, 0%, 20%);
+    background-color: var(--bg-third-color);
     border-radius: .3rem;
     border: none;
     padding: .735rem;
     cursor: pointer;
-    color: hsl(0, 0%, 100%);
+    color: var(--font-color);
     font-weight: 700;
 }
 
 .social-btn:hover{
-    background-color: hsl(75, 94%, 57%);
-    color:hsl(0, 0%, 8%);
+    background-color: var(--bg-fourth-color);
+    color: var(--font-second-color);
 }
-
 
 /* IMAGES */
 
@@ -79,12 +87,10 @@ body, .card, .card-social-links, .card-text {
 /* TEXTS */
 
 .highlight {
-    color: hsl(75, 94%, 57%);
+    color: var(--bg-fourth-color);
     font-weight: 600;
     font-size: 12px;
 }
-
-
 
 h1{
     font-weight: 600;
@@ -96,10 +102,10 @@ h1{
 }
 
 footer{
-    color:hsl(0, 0%, 20%);
+    color:var(--bg-third-color);
 }
 
 footer a{
     text-decoration: none;
-    color: hsl(75, 94%, 57%);
+    color: var(--bg-fourth-color);
 }
